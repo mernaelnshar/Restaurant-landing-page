@@ -1,0 +1,426 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(252, 244, 233);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3vw;
+}
+
+.menu {
+    width: 25%;
+}
+
+.menu .photo img {
+    width: 15vw;
+    margin-bottom: 2vw;
+    object-fit: cover;
+}
+
+.menu .boxs {
+    margin-bottom: 4vw;
+}
+
+.menu .box {
+    display: flex;
+    color: #ff6200;
+    margin-bottom: 2vw;
+}
+
+.box i {
+    font-size: 3vw;
+}
+
+.box h3 {
+    margin-left: 2vw;
+    font-size: 2vw;
+}
+
+.tweet {
+    margin-bottom: 3vw;
+}
+
+.tweet h4 {
+    color: #582d13;
+    font-size: 2.5vw;
+    margin-bottom: 1vw;
+
+}
+
+.tweet button {
+    font-size: 1.5vw;
+    padding: 1vw;
+    color: #ff6200;
+    background-color: rgb(252, 244, 233);
+    border: #582d13 0.5px solid;
+    border-radius: 1vw;
+}
+
+.tweet button:hover {
+    box-shadow: #c7764583 3px 5px;
+}
+
+.friends {
+    margin-top: 4.5vw;
+}
+
+.friends h4 {
+    color: #582d13;
+    font-size: 2.5vw;
+    margin-bottom: 0.5vw;
+
+}
+
+.friends p {
+    font-size: 1.5vw;
+    padding: 1vw;
+    padding-left: 0;
+    color: #582d13;
+}
+
+.friends button {
+    font-size: 1.5vw;
+    padding: 1vw;
+    color: #ff6200;
+    background-color: rgb(252, 244, 233);
+    border: #582d13 0.5px solid;
+    border-radius: 1vw;
+}
+
+.friends button:hover {
+    box-shadow: #c7764583 3px 5px;
+}
+
+.main {
+    width: 75%;
+}
+
+.main .img-container {
+    position: relative;
+    width: 100%;
+    height: 35vw;
+
+}
+
+.main .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main .text-container {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+}
+
+.main .text-container h1 {
+    font-size: 2.5vw;
+    background-color: #582d13;
+    color: rgb(252, 244, 233);
+    padding-left: 5%;
+}
+
+.main .text-container p {
+    font-size: 1.2vw;
+    background-color: rgb(252, 244, 233);
+    color: #582d13;
+    padding-left: 5%;
+}
+
+.part2 {
+    display: flex;
+    background-color: #f89c6366;
+    margin-bottom: 4vw;
+}
+
+.part2 .card {
+    padding: 1.5vw;
+    flex: 1;
+}
+
+.part2 .card:hover {
+    background-color: #f97e31;
+}
+
+.part2 .card h1 {
+    font-size: 2.2vw;
+    margin-bottom: 0.6vw;
+}
+.part2 .card p {
+    font-size: 1.5vw;
+}
+
+.part3 , .top , .bottom {
+    display: flex;
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+}
+
+.part3 i {
+    font-size: 3vw;
+    margin-right: 1vw;
+}
+.part3 p {
+    font-size: 1.6vw;
+    margin-right: 1vw;
+}
+
+.part3 input {
+    width: 20vw;
+    height: 2.5vw;
+    margin: 0.5vw;
+}
+.part3 button {
+    font-size: 1.5vw;
+    padding: 1vw;
+    margin-left: 1vw;
+    color: #ff6200;
+    background-color: rgb(252, 244, 233);
+    border: #582d13 0.5px solid;
+    border-radius: 1vw;
+}
+
+.part3 button:hover {
+    box-shadow: #c7764583 3px 5px;
+}
+
+.part4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.part4 .card {
+    width: 20%;
+    margin: 1.5vw;
+    text-align: left;
+}
+
+.part4 .card img {
+    width: 100%;
+    height: 15vw;
+    border-radius: 5px;
+    border: 1px solid #582d13;
+    padding: 0.5vw;
+}
+
+.part4 .card img:hover {
+    box-shadow: #f88d4c 4px 4px 4px 4px;
+}
+
+.part4 .card h2 {
+    color: #ff6200;
+    margin: 1vw;
+    margin-left: 0;
+    font-size: 2.2vw;
+}
+
+.part4 .card p {
+    color: #582d13;
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+}
+
+.part4 .card a {
+    
+    font-size: 1.6vw;
+    text-decoration: none;
+    color: #ff6200;
+}
+
+.part4 .card a:hover {
+    font-size: 1.2vw;
+    background-color: #582d13;
+    color: antiquewhite;
+    padding: 0.7vw;
+    border-radius: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+    .menu {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu .boxs {
+        display: flex;
+        margin-top: 2.5vw;
+        align-items: center;
+    }
+
+    .menu .boxs .box {
+        display: block;
+        text-align: center;
+        margin-right: 1vw;
+    }
+
+    .menu .boxs .box i {
+        font-size: 4vw;
+    }
+
+    .menu .boxs .box h3 {
+        margin-top: 2vw;
+        margin-left: 0;
+        font-size: 2.2vw;
+    }
+
+    .tweet,
+    .friends {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .main .img-container {
+        height: 55vw;
+    }
+
+    .main .text-container h1 {
+        font-size: 3vw;
+    }
+
+    .main .text-container p {
+        font-size: 2.2vw;
+    }
+
+
+
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width : 480px) {
+
+    .menu {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu .photo img {
+        width: 30vw;
+        object-fit: cover;
+    }
+
+    .menu .boxs {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+    }
+    .part2{
+        display: none;
+
+    }
+    .part3 {
+        margin-top: 5vw;
+        display: inline-block;
+    } 
+    .top , .bottom {
+        margin-bottom: 3vw;
+        font-size: 1.5vw;
+    }
+    
+.part3 i {
+    font-size: 7vw;
+    margin-right: 3vw;
+}
+.part3 p {
+    font-size: 3vw;
+    margin-right: 3vw;
+}
+
+
+
+.part3 input {
+    width: 60vw;
+    height: 6vw;
+    margin: 2vw;
+    margin-left: 0;
+}
+.part3 button {
+    font-size: 4vw;
+    padding: 1.5vw;
+    margin-left: 1vw;
+    color: #ff6200;
+    background-color: rgb(252, 244, 233);
+    border: #582d13 0.5px solid;
+    border-radius: 1vw;
+}
+
+.part4 .card {
+    width: 100%;
+    height: 100%;
+    margin: 1.5vw;
+    margin-bottom: 10vw;
+    text-align: left;
+}
+
+.part4 .card img {
+    width: 100%;
+    height: 60vw;
+    border-radius: 5px;
+    border: 1px solid #582d13;
+    padding: 0.5vw;
+}
+
+.part4 .card h2 {
+    color: #ff6200;
+    margin: 1vw;
+    margin-left: 0;
+    font-size: 10vw;
+}
+
+.part4 .card p {
+    color: #582d13;
+    font-size: 5vw;
+    margin-bottom: 3vw;
+}
+
+.part4 .card a {
+    font-size: 4vw;
+    text-decoration: none;
+    color: #ff6200;
+}
+
+.part4 .card a:hover {
+    font-size: 4vw;
+    background-color: #582d13;
+    color: antiquewhite;
+    padding: 1.6vw;
+    border-radius: 1vw;
+}
+
+
+}
